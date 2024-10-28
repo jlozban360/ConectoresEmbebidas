@@ -48,9 +48,7 @@
             <groupId>net.sf.ucanaccess</groupId>
             <artifactId>ucanaccess</artifactId>
             <version>5.0.1</version>
-            <scope>runtime</scope>
         </dependency>
-
 
         <!-- Oracle JDBC -->
         <dependency>
@@ -58,5 +56,23 @@
             <artifactId>ojdbc8</artifactId>
             <version>19.8.0.0</version>
         </dependency>
+
+        <!-- UCanAccess -->
+        <dependency>
+            <groupId>com.healthmarketscience.jackcess</groupId>
+            <artifactId>jackcess</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
     </dependencies>
 </project>

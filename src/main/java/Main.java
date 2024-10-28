@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main( String[ ] args ) {
+    public static void main( String[ ] args ) throws ClassNotFoundException {
         Scanner sc = new Scanner( System.in );
 
         while( true )
@@ -20,15 +20,19 @@ public class Main {
                     break;
                 }
                 case 3: { //HSQLDB
+                    ConnHSQLDB conn = new ConnHSQLDB( );
                     break;
                 }
                 case 4: { //H2
+                    ConnH2 conn = new ConnH2( );
                     break;
                 }
                 case 5: { //Access
+                    ConnAccess conn = new ConnAccess( );
                     break;
                 }
                 case 6: { //Oracle
+                    ConnOracle conn = new ConnOracle( );
                     break;
                 }
                 case 0: {
